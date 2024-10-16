@@ -1,3 +1,10 @@
+/* if you have 100 page website, you can have one external
+stylesheet that links to all of the pages */
+
+/* if you have the same style listed twice, the later 
+will overwrite thr first.
+for example a{color: red;} a{color: blue;} will make the text blue */
+
 .navbar ul{
     list-style-type: none;
     background-color: #333333;
@@ -5,11 +12,11 @@
     margin: 0px;
     }
     
-    .navbar ul li{
-        background-color: #ff6600;
-        text-decoration: #007BFF;
-    }
-    
+.navbar ul li{
+  background-color: #ff6600;
+  text-decoration: #007BFF;
+  }
+
     .navbar a{
         color: white;
         text-decoration: none;
