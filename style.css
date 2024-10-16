@@ -1,11 +1,51 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: #333333;
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    .navbar ul li{
+        background-color: #ff6600;
+        text-decoration: #007BFF;
+    }
+    
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 10px ;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+    }
+    .navbar a:hover{
+        background-color: hsl(0, 0%, 10%)
+    }
+ 
+
+    a.navBG{
+        color: rgb(8, 6, 6);
+    }
+
+
+    a: visited {
+        color: purple;
+    }
+ 
+    
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #9c7373;
+
 }
 
 h1 {
     color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;   
+    font-style: italic; 
 }
 
 button {
@@ -21,4 +61,21 @@ button:hover {
     background-color: #0056b3;
 }
 
+.small-image {
+    width: 300px; /* or any other value you prefer */
+    height: auto; /* maintains the aspect ratio */
+}
+
+
+.bigbold {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    grid: 1;
+}
+
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+} 
 
